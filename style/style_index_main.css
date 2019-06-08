@@ -1,0 +1,140 @@
+/*main*/
+
+
+hr{
+    color:black;
+}
+
+
+main a{
+    color: rgb(10, 10, 10);
+
+}
+
+
+main{
+    margin-top: 2%;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 0;
+    width: 100%;
+    min-height: 300px;
+}
+
+.navigator-site{
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    flex-wrap: nowrap;
+    min-height: 200px;
+    margin: 1% 18%;
+}
+
+
+.hr{
+    color: black;
+    width: 100%;
+    margin-bottom: 5%;
+
+}
+.steps-for-begin{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.steps-for-begin:last-child{
+    margin-bottom: 10%;
+}
+
+img{
+    width: 60px;
+    height: 60px;
+}
+
+.paragrh-main{
+    margin: 0px 15%;
+    font-size: 40px;
+}
+
+.event-for-cour{ 
+    vertical-align: middle;
+    margin-left: 40px;
+    align-items: center;
+    min-height: 50px;
+    margin-top: 10px;
+    display: flex;
+    margin-bottom: 20px ;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+
+
+.steps-for-begin:last-child{
+    margin-left: 0;
+}
+
+
+.shema{
+    margin-top: 3%;
+
+}
+
+.fine{
+    margin-top: 3%;
+}
+
+.nav{
+    margin-bottom: 7%;  
+}
+
+.flex-layout-nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    flex-direction: column;
+}
+
+
+.block-flex{
+    margin: 0px 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    vertical-align: middle;
+    align-items: center;
+}
+
+
+.block-flex{
+    margin: 0px 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.flex-layout-nav a{
+    width: 100%;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+
+

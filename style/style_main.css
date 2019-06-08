@@ -1,0 +1,188 @@
+html, body{
+    width: 100%;
+    margin: 0;
+    font-family: Arial;
+}
+
+
+
+body{
+    min-height: 2000px;
+    background: url("http://365psd.ru/images/backgrounds/paper-2.jpg");
+}
+
+header{
+    background-color:#81ada080;
+    box-shadow: 3px 1px 20px rgb(110, 110, 110);
+}
+
+
+.header{
+    max-height: 200px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+
+
+ul{
+    justify-content: start;
+    flex-direction: row;
+    display: inline-flex;
+    list-style-type: none;
+}
+
+li{
+    margin-top: 30px;;
+    cursor: pointer;
+    margin-left: 0px;
+}
+
+.logo{
+    font-size: 40px;
+    font-weight: 900;
+    color: #093505a1;
+}
+
+a{
+    font-family:  Times;
+    color: #19153e;
+    font-size: 30px;
+    margin: 45px 10px 0px; 
+    vertical-align: middle;
+    text-decoration: none;
+    font-weight: 800
+
+}
+
+
+a:hover{
+    color: #567257;
+    text-decoration: none;
+}
+
+a:active{
+    color: #1eb878;
+    text-decoration: none;
+}
+
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+
+
+
+
+/*                  MOBILE VERSION                  */  
+
+
+
+
+
+
+@media screen and (max-width: 992px){
+    .navigator-site{
+        margin: 0%;
+    }
+
+    .head-container{
+        overflow: hidden;
+    }
+
+
+    ul .memu-listing{
+
+        width: 100%;
+        margin: 0%;
+    }
+
+    .menu-listing li{
+        width: 100%;
+    }
+
+    .menu-listing a{
+        
+        margin: 0;
+        padding: 0;
+    }
+
+    .jqr-nav{
+        margin: 0;
+    }
+
+    .logo{
+        display: none;
+    }
+
+
+    .header{
+        height: 0px;
+        display: none;
+    }
+
+    ul{
+        padding-left: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    ul li{
+        margin: 0 0% 2px;
+        background-color: #8dc2ac;
+        border-radius: 5px;
+        width: 100%;
+        border-bottom-left-radius: 4%;
+    }
+
+
+    .head-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .paragrh-main{
+        font-size: 30px !important;
+    }
+
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 1200px) and (min-width: 993px){
+    .navigator-site{
+        margin: 7%;
+    }
+
+
+    .menu, .navbar-menu{
+        display: none;
+    }
+
+
+
+}
+
+@media screen and (min-width: 1201px){
+    .navigator-site{
+        margin: 22%;
+    }
+
+
+    .menu, .navbar-menu{
+        display: none;
+    }
+}
+
+
